@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="TrelloAutomation(failed)">
+    <classes>
+      <class name="APITests">
+        <methods>
+          <include name="getBoardRetrofit"/>
+          <include name="updateBoard"/>
+          <include name="getBoard"/>
+          <include name="updateBoardRetrofit"/>
+        </methods>
+      </class> <!-- APITests -->
+    </classes>
+  </test> <!-- TrelloAutomation(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

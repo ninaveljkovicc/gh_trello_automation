@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="5021" started-at="2024-12-13T11:33:08Z" finished-at="2024-12-13T11:33:13Z">
+    <groups>
+    </groups>
+    <test name="TrelloAutomation" duration-ms="5021" started-at="2024-12-13T11:33:08Z" finished-at="2024-12-13T11:33:13Z">
+      <class name="APITests">
+        <test-method status="PASS" signature="createBoard()[pri:0, instance:APITests@76707e36]" name="createBoard" duration-ms="2942" started-at="2024-12-13T11:33:08Z" finished-at="2024-12-13T11:33:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBoard -->
+        <test-method status="PASS" signature="getBoard()[pri:1, instance:APITests@76707e36]" name="getBoard" duration-ms="422" started-at="2024-12-13T11:33:11Z" finished-at="2024-12-13T11:33:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBoard -->
+        <test-method status="PASS" signature="updateBoard()[pri:2, instance:APITests@76707e36]" name="updateBoard" duration-ms="369" started-at="2024-12-13T11:33:12Z" finished-at="2024-12-13T11:33:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBoard -->
+        <test-method status="PASS" signature="deleteBoard()[pri:3, instance:APITests@76707e36]" name="deleteBoard" duration-ms="1244" started-at="2024-12-13T11:33:12Z" finished-at="2024-12-13T11:33:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBoard -->
+      </class> <!-- APITests -->
+    </test> <!-- TrelloAutomation -->
+  </suite> <!-- Default Suite -->
+</testng-results>
